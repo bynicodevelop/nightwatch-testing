@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: 12
       - run: npm install
-      - run: nightwatch -t tests/index.js
+      - run: node_modules/.bin/nightwatch -t tests/index.js
