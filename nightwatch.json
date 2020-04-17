@@ -16,7 +16,7 @@
       "port": 4444,
       "server_path": "bin/selenium-server-standalone-4.0.0-alpha-2.jar",
       "cli_args" : {
-        "webdriver.chrome.driver" : "./bin/chromedriver"
+        "webdriver.chrome.driver" : "node_modules/bin/chromedriver"
       }
 
     },
